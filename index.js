@@ -3,7 +3,7 @@ const bot = new Discord.Client()
 
 bot.on('ready',function(){
     
-/*bot.user.setAvatar('./hello-kitty.jpg').catch(console.error)*/
+bot.user.setAvatar('./hello-kitty.jpg').catch(console.error)
 bot.user.setActivity('HelloKitty online').catch(console.error)})
     /*.then(() => console.log('Avatar mis en place avec succes'))
     .catch(console.error)})*/
@@ -25,4 +25,4 @@ bot.on('message', function (message){
     }
 })
 
-bot.login('NDU4NTcxOTAzODI1NjA4NzE0.Dgp79Q.YrY9T08FA7nl3wXDQ8lWrSbQeWE')
+bot.login('NDU4NzAxMjc5NDgxNTYxMDk4.Dgrfcg.N8uwiDxVIi9r3ksr7dUVAtrf6Qk')
