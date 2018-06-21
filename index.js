@@ -25,4 +25,4 @@ bot.on('message', function (message){
     }
 })
 
-bot.login('NDU4NzAxMjc5NDgxNTYxMDk4.Dgrfcg.N8uwiDxVIi9r3ksr7dUVAtrf6Qk')
+bot.login('numero du token')
